@@ -1,0 +1,23 @@
+theme = "tokyonight"
+
+[editor]
+line-number = "relative"
+idle-timeout = 10
+completion-trigger-len = 2
+soft-wrap.enable = true
+
+[editor.cursor-shape]
+select = "underline"
+
+[editor.lsp]
+display-signature-help-docs = false
+
+[keys.normal]
+X = "extend_line_above"
+h = ["move_char_left", "align_view_center"]
+j = ["move_line_down", "align_view_center"]
+k = ["move_line_up", "align_view_center"]
+l = ["move_char_right", "align_view_center"]
+"C-u" = ["half_page_up", "align_view_center"]
+"C-d" = ["half_page_down", "align_view_center"]
+
