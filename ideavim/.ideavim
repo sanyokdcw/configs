@@ -1,0 +1,27 @@
+set scrolloff=5
+
+set relativenumber
+set nu rnu
+set incsearch
+
+map Q gq
+
+
+Plug 'machakann/vim-highlightedyank'
+Plug 'tpope/vim-commentary'
+
+Plug 'preservim/nerdtree'
+
+Plug 'tpope/vim-surround'
+let mapleader = " "
+
+map <Space>e <Action>(ActivateProjectToolWindow)
+
+map <Space>fc <Action>(FindInPath)
+map <Space>ff <Action>(GotoFile)
+
+nnoremap gl $
+nnoremap gh 0
+nnoremap d "_d
+xnoremap d "_d
+xnoremap p "_dPd
